@@ -1,0 +1,2 @@
+# Purpose
+Why am I doing this? Firstly for fun. Secondly it's a problem that every company suffers and would make things so much faster and easier for everyone if there was an opinionated coding standard, configuration, development and testing.
