@@ -3,7 +3,7 @@
 The contents of this documentation. This is for me for now and then I plan to move this to the main `README.md`. Or something. Not fully sure. Ignore my rambling.
 
 1. What
-1. Purpose
+1. [Purpose](./purpose.md)
 1. Configuration
 1. Opinonated
 1. Generators
