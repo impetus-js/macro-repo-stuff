@@ -2,6 +2,95 @@
 This is just the first folder structure I cam up with and am not super happy with it but the packages themselves I do like. 
 
 I want this mono-repo to be broken up more like 
+
+I think it will make the most sense to break up the framework into multiple macro repos
+
+## Potential Structure
+```
+# Documentation
+_docs
+  media
+  ... etc
+
+# Demo apps
+apps
+  cli
+  generators
+  kernal
+  ... etc
+
+# This repo's configurations
+configuration
+  typescript
+  eslint
+  editorconfig
+  webpack
+  rollup
+  server
+  prettier
+  javascript
+  yaml-json
+  git
+  IO (prisma, file, db, urls, logging)
+  react
+  graphql
+  mfe
+  thunder-client
+  
+# Core functionality for the framework
+core
+  client-configs
+  infra
+  kernel
+  runner
+  testing
+  web
+  macro-repo
+
+# Deployment packages
+deployments
+  client-configs
+  infra
+  runner
+  testing
+  web
+
+
+# Package management libraries
+package-management
+  bundler-logger
+  bundler-prod-cleaner
+  bundler-testing
+
+# IDE plugins (eg vscode)
+ide-plugins
+  vscode-logger-highlighter
+  vscode-macro-repo
+  vscode-preferences
+  vscode-test-opener
+
+# Development tools
+tools
+  auto-loader
+  cli
+  eslint-base
+  eslint-client
+  eslint-tsx
+  eslint-typescript
+  generator-app
+  generator-ci-cd
+  generator-client-config
+  generator-infra
+  generator-lambda
+  generator-lib
+  generator-macro-repo
+  generator-service
+  loggercd
+  parcel
+  testing
+```
+
+## Original structure
 ```
 // The core packages
 core
