@@ -8,6 +8,9 @@
 
 The workflows explains how an organization sets up their macro-repos and 
 
+## TODO
+I want to add a diagram of engineering, QA & OPs workflows.
+
 ## Organization Setup
 ### Configurations Setup
 There are extensive default configurations already created for package development to standardize as many tools as possible to keep everyone focused on feature development, testing, bug fixes, refactors et al. The configuration repo focuses on an organization's platform configurations for code styles, deployments and possibly the generators. This repo is what the framework uses when generators are used, cli and runners. 
