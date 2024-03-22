@@ -1,8 +1,11 @@
 # Features & Benefits
 - [Features \& Benefits](#features--benefits)
   - [Opinionated](#opinionated)
+  - [Featues](#featues)
   - [Benefits](#benefits)
   - [When or When not to use](#when-or-when-not-to-use)
+
+> [`NOTE`]: Need to add to the "## Features" heading
 
 ## Opinionated
 - Coding styles are strict requiring engineers to use provided configurations for styles and the like
@@ -15,6 +18,9 @@
   - et. al.
 - Code is auto-run in development
 - Packages are compiled, bundled and loaded into apps for teams
+
+## Featues
+- 
 
 ## Benefits
 1. It will significantly improve development times
@@ -59,7 +65,8 @@
 6. Keeps package directories simple and clean
    1. Standardized directories and file names makes things easier to find
    2. There won't be any open source library configurations or required directories in packages
-7. 
+7. Default libraries
+   1. Libraries like the injected `URL` object allow for all 
 
 ## When or When not to use
 - If your teams prefer to manage everything themselves
