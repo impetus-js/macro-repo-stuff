@@ -1,5 +1,5 @@
-# Repo Brakedowns & Package/Functionality Proposals
-- [Repo Brakedowns \& Package/Functionality Proposals](#repo-brakedowns--packagefunctionality-proposals)
+# Core Repo
+- [Core Repo](#core-repo)
   - [Macro Repos](#macro-repos)
   - [Packages](#packages)
     - [Documentation / Website](#documentation--website)
