@@ -1,4 +1,11 @@
 # Workflows & Setup
+- [Workflows \& Setup](#workflows--setup)
+  - [Organization Setup](#organization-setup)
+    - [Configurations Setup](#configurations-setup)
+  - [Repo \& Package Creation](#repo--package-creation)
+  - [Development](#development)
+  - [Deployment](#deployment)
+
 The workflows explains how an organization sets up their macro-repos and 
 
 ## Organization Setup
