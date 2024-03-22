@@ -1,1 +1,0 @@
-Web components built by the core framework. Everything would be overrideable
