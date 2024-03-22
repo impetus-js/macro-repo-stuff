@@ -34,11 +34,13 @@
       4. File data
       5. Authorization
 2. Code & packages are atomic
-   1. All code does a single thing
-   2. Packages only contain business rules
-   3. Frontend and backend code are completely separated
-   4. Packages are singularly focused
-   5. 2 types of packages
+   1. Frontend and backend code are completely separated
+   2. Packages are singularly focused
+      1. Each file has a single function
+      2. Packages only contain business rules
+      3. This makes packages incredibly lean
+         1. All code is separated into standardized directories
+   3. 2 types of packages
       1. Private packages are used as libraries for internal development, public libraries. THis keeps them focused on thier usecases therefore atomic. Private libraries can also have deeper namespaces which makes it easier to keep track of them i.e.
          1. `@organization/subdomain/component`
          2. `@organization/subdomain/service`
