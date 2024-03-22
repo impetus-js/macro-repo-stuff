@@ -32,6 +32,12 @@
    2. Packages only contain business rules
    3. Frontend and backend code are completely separated
    4. Packages are singularly focused
+   5. 2 types of packages
+      1. Private packages are used as libraries for internal development, public libraries. THis keeps them focused on thier usecases therefore atomic. Private libraries can also have deeper namespaces which makes it easier to keep track of them i.e.
+         1. `@organization/subdomain/component`
+         2. `@organization/subdomain/service`
+      2. Public libraries have `npm` formatted namespaces. These are the packages that are exported and used by apps or developers in the case of `cli` tools or generators, for example. They pull in the private packages and are, usually, automatically handled and linked. Multiple public packages can also be created with a generator
+         1. `@organization/package-name`
 3. Opinionated & strict standards affords us some extra benefits
    1. Code can be auto generated
    2. Engineers can focus on what matters. Business logic
