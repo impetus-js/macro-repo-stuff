@@ -4,7 +4,7 @@ Open source libraries used in code generation n' shit
 - GraphQL
 - Injectable-js
 - Prisma
-- React
+- React / SolidJS / Angular 🤮
 - Rollup.js
 - Webpack
 - Vite
@@ -14,4 +14,3 @@ Open source libraries used in code generation n' shit
 - NVM
 - Storybook
 - Redux Toolkit & Redux Sagas
-- Angular 🤮

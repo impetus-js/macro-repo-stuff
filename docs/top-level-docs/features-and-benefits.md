@@ -26,8 +26,13 @@
       2. Fetched url data
       3. Queried SQL or GraphQL data
       4. File data
-      5. Authorizations
-2. Opinionated & strict standards affords us some extra benefits
+      5. Authorization
+2. Code & packages are atomic
+   1. All code does a single thing
+   2. Packages only contain business rules
+   3. Frontend and backend code are completely separated
+   4. Packages are singularly focused
+3. Opinionated & strict standards affords us some extra benefits
    1. Code can be auto generated
    2. Engineers can focus on what matters. Business logic
    3. Codemods are simpler
@@ -37,14 +42,18 @@
    6. Updates to packages and repos is far less painful
       1. Single repo of configs to update
       2. Testing packages after updates are simple
-3. Does not require local `Docker` (or any VM) containers to run code on any engineer's machine
+4. Does not require local `Docker` (or any VM) containers to run code on any engineer's machine
    1. This speeds up development so engineers do not need to reload containers for container changes
    2. Working directly on the host machine speeds up development significantly
    3. Since all configurations are the same it wouldn't be possible for code to be run differently on the local computer to a deployed environment.
-4. Documentation
+5. Documentation
    1. API Tester
    2. Storybook
    3. Docs website (`./_docs`)
+6. Keeps package directories simple and clean
+   1. Standardized directories and file names makes things easier to find
+   2. There won't be any open source library configurations or required directories in packages
+7. 
 
 ## When or When not to use
 - If your teams prefer to manage everything themselves
