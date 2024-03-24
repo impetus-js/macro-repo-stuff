@@ -8,6 +8,9 @@
 
 The workflows explains how an organization sets up their macro-repos and 
 
+## TODO
+I want to add a diagram of engineering, QA & OPs workflows.
+
 ## Organization Setup
 ### Configurations Setup
 > [**`TODO`**]
