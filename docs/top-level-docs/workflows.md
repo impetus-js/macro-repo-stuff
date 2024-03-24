@@ -10,6 +10,9 @@ The workflows explains how an organization sets up their macro-repos and
 
 ## Organization Setup
 ### Configurations Setup
+> [**`TODO`**]
+> Diagram
+
 There are extensive default configurations already created for package development to standardize as many tools as possible to keep everyone focused on feature development, testing, bug fixes, refactors et al. The configuration repo focuses on an organization's platform configurations for code styles, deployments and possibly the generators. This repo is what the framework uses when generators are used, cli and runners. 
 
 These are primarly configuration and script setup but also overrides for each configuration type.
@@ -54,9 +57,15 @@ These are primarly configuration and script setup but also overrides for each co
       - Styles
 
 ## Repo & Package Creation
+> [**`TODO`**]
+> Diagram
+
 Teams create repos, packages & apps using CLI tools to generate them and run codemods. CLI tools are also create new features within the codebase.
 
 ## Development
+> [**`TODO`**]
+> Diagram
+
 Development is straight forward and fast. After a macro-repo is created the packages are added and default/stub code is added. Engineers do not need to put work into handling OPs configurations nor package or code configurations. 
 
 Configurations are loaded automatically either from default configurations that come with the framework or the overrides that the organization provides. Local (in repo) overrides are also available. 
@@ -68,4 +77,7 @@ All code is containerized using an IoC container ([`injectable-ts`](https://gith
 Since all code is auto loaded (engineers aren't required to import them anywhere) there is no stress to do anything running applications is simple. It uses the framework's loader and runner packages. Builds are also simple because each package is by default compiled & minified to a single file and deployed/packaged as such.
 
 ## Deployment
+> [**`TODO`**]
+> Diagram
+
 Deployments are setup by the organization and no extra steps by the engineers are required.
