@@ -25,7 +25,8 @@ macro-repo-name
   apps
   packages
     _main
-    _public # A package that is public that exports the packages in here. Managed by the framework
+    _public # A package that is public that exports
+            # the packages in here. Managed by the framework
     ...
   configs
   scripts

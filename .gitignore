@@ -51,4 +51,4 @@ node_modules/
 .DS_Store
 thumbs.db
 
-docs/_example-macro-repo
+docs/_assets/macro-repos-examples/
