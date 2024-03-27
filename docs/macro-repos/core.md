@@ -1,4 +1,16 @@
 # Core Framework Repos (kernal)
+- [Core Framework Repos (kernal)](#core-framework-repos-kernal)
+  - [About](#about)
+  - [Folder Structure](#folder-structure)
+  - [Packages](#packages)
+    - [Infra](#infra)
+    - [Runners](#runners)
+      - [Notes](#notes)
+    - [Bundler](#bundler)
+    - [Testing](#testing)
+    - [Front End](#front-end)
+    - [Back End](#back-end)
+    - [Macro Repo](#macro-repo)
 
 ## About
 The `kernal` is essentially the `main()` of the framework.
