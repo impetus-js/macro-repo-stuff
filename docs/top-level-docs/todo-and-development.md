@@ -3,6 +3,7 @@
   - [Development](#development)
     - [Further IoC exploration](#further-ioc-exploration)
     - [Configurations \& Tools](#configurations--tools)
+    - [Codemods](#codemods)
     - [Create a code runner](#create-a-code-runner)
     - [Package Management](#package-management)
     - [Core libraries](#core-libraries)
@@ -25,6 +26,15 @@
   - `typescript`
   - `Express` (or some other)
   - 
+
+### Codemods
+Learn how to create/write a code mod. Codemods will let me create scripts that will modify code. For instance adding a new `import` statement and such. Also to have automatic upgrades.
+
+- [A Step-by-Step Guide to Using jscodeshift with TypeScript](https://www.dhiwise.com/post/the-ultimate-guide-to-using-jscodeshift-with-typescript)
+- [ts-migrate: A Tool for Migrating to TypeScript at Scale](https://medium.com/airbnb-engineering/ts-migrate-a-tool-for-migrating-to-typescript-at-scale-cd23bfeb5cc)
+- [Automating Refactoring with Codemod](https://malcolmkee.com/blog/automating-refactoring-with-codemod/)
+- [My Workflow for Codemods](https://www.skovy.dev/blog/codemod-workflow?seed=9jela9)
+- [An introduction to codemods](https://nicknisi.com/posts/codemods-introduction/)
 
 ### Create a code runner
 - Do for frontend

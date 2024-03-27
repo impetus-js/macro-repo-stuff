@@ -14,13 +14,4 @@ Open source libraries used in code generation n' shit
 - NVM
 - Storybook
 - Redux Toolkit & Redux Sagas
-- Accessibility
-- i18n
-- Errors
-- Message Injector
-  - Inject a message into code. Automatically reads the `messages.yaml` file
-  - Used for: 
-    - Errors
-    - Page content
-    - Logging
-  - Uses the global message config set by the org
+- 11ty

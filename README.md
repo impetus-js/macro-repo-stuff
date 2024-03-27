@@ -3,9 +3,9 @@ This repo is a little project that I'm working on to prove some ideas to myself.
 
 I am starting this project using this repo template: [NiGhTTraX/ts-monorepo](https://github.com/NiGhTTraX/ts-monorepo).
 
-## Insall
-This repo
-
-```sh
-npm i -g pnpm
-```
+## Links
+- https://github.com/vercel/turbo/tree/main/examples/kitchen-sink
+- https://www.npmjs.com/package/tsup
+- https://github.com/waldronmatt/shareable-configs/tree/main
+- https://github.com/vercel/turbo/tree/main/packages/turbo-codemod
+- 
