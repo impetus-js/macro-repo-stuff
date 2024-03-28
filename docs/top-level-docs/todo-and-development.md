@@ -1,5 +1,6 @@
 # TODO & Development
 - [TODO \& Development](#todo--development)
+  - [Documentation](#documentation)
   - [Development](#development)
     - [Create a code runner](#create-a-code-runner)
       - [What](#what)
@@ -28,6 +29,10 @@
     - [Misc](#misc)
       - [What](#what-8)
       - [Results](#results-8)
+
+## Documentation
+- [ ] I have some repeating stuff. Let's clean that up
+- [ ] Consolidate the documents
 
 ## Development
 ### Create a code runner
@@ -66,8 +71,15 @@ Some options:
 `N/A`
 
 ### Generators
-A script/bin that would create
+A script/bin that would create code, packages, apps & macrorepos
 
+Explore the following template engines
+- [`liquidjs`](https://www.npmjs.com/package/liquidjs)
+- [`mitem`](https://www.npmjs.com/package/mitem)
+- [`eta`](https://www.npmjs.com/package/eta)
+- [`waterpipe`](https://www.npmjs.com/package/waterpipe)
+- [`Hygen`](https://www.hygen.io/)
+- [EJS](https://ejs.co/)
 
 #### What
 - [ ] Investigate and test out some generator packages

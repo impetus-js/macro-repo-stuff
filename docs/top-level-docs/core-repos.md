@@ -9,6 +9,9 @@
     - [Package management libraries](#package-management-libraries)
     - [IDE plugins (eg Visual Studio Code)](#ide-plugins-eg-visual-studio-code)
     - [Development tools](#development-tools)
+      - [Code Generators](#code-generators)
+      - [Packages](#packages-1)
+      - [Articles](#articles)
     - [Default Libraries](#default-libraries)
 
 I'm using this document to explain all the functionality that this framework provides but as packages. The intent is to break down all the functionality by packages as I find this an easier method because I am a visual thinker. From thre I plan to describe the percieved required functionality so it is easier to explain this repo's purpose & features, how it works and why I feel this is the future of enterprise development. 
@@ -130,6 +133,21 @@ ide-plugins
 
 ### Development tools
 Tools to makde development easier. These are loaders, package generators, clis and `codemods` to modify packages automatically.
+
+#### Code Generators
+
+#### Packages
+- [`liquidjs`](https://www.npmjs.com/package/liquidjs)
+- [`mitem`](https://www.npmjs.com/package/mitem)
+- [`eta`](https://www.npmjs.com/package/eta)
+- [`waterpipe`](https://www.npmjs.com/package/waterpipe)
+- [`Hygen`](https://www.hygen.io/)
+- [EJS](https://ejs.co/)
+
+#### Articles
+- [TypeScript code generation using it’s compiler API](https://shadeglare.medium.com/typescript-code-generation-using-its-compiler-api-4c50ad9f7884)
+- [handlebars-lang/handlebars.js: Minimal templating on steroids.](https://github.com/handlebars-lang/handlebars.js)
+
 
 ```
 tools
