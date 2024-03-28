@@ -1,5 +1,6 @@
 # Default Libraries
 - [Default Libraries](#default-libraries)
+  - [Preamble](#preamble)
   - [IO](#io)
     - [URL](#url)
     - [DB](#db)
@@ -13,6 +14,9 @@
   - [Sass libraries](#sass-libraries)
   - [Client/Server libraries](#clientserver-libraries)
   - [Platform shit](#platform-shit)
+
+## Preamble
+The default libraries that are used within the framework's functionality and those that are automatically injected into package code. This forces all code to be standardized.
 
 ## IO
 ### URL

@@ -3,14 +3,16 @@
   - [About](#about)
   - [Folder Structure](#folder-structure)
   - [Packages](#packages)
+    - [Client Configs](#client-configs)
     - [Infra](#infra)
     - [Runners](#runners)
       - [Notes](#notes)
-    - [Bundler](#bundler)
+    - [~~Bundler~~](#bundler)
     - [Testing](#testing)
     - [Front End](#front-end)
     - [Back End](#back-end)
     - [Macro Repo](#macro-repo)
+    - [Organization Packages](#organization-packages)
 
 ## About
 The `kernal` is essentially the `main()` of the framework.
@@ -33,9 +35,8 @@ kernal
 ```
 
 ## Packages
-Client Configs
+### Client Configs
 ### Infra
-
 ### Runners
 The runners are executables that run the code. They have a few core functions.
 1. Find & load files automatically
@@ -44,18 +45,12 @@ The runners are executables that run the code. They have a few core functions.
 2. 
 
 #### Notes
-The thing about the runners is that it will not work currently without some custom functionality. Options
-
-1. Write a `rollup.js` plugin to find files and use a codemod to write a custom file that would end up being compiled
-   - Simplilar to this plugin: [`@rollup/plugin-inject`](https://github.com/rollup/plugins/tree/master/packages/inject).
-     - It uses a tree walker (`AST`) so this looks like it would be the best example to autopsy.
-   - Has a cache, es conversion: [`@rollup/plugin-graphql`](https://github.com/rollup/plugins/tree/master/packages/graphql)
-2. Follow `turbo.build`'s method and write a `rust` plugin or something. I really don't want to have to do this.
-
-### Bundler
-
-
+### ~~Bundler~~
 ### Testing
 ### Front End
 ### Back End
 ### Macro Repo
+### Organization Packages
+Packages that the Organization define to be used. They would be all the same version. The exception is if an override is required but this means it's unmanaged.
+
+These are packages that would be automatically applied to the `package.json` by package type.

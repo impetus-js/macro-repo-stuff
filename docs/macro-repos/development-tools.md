@@ -1,6 +1,2 @@
 ## Renamer
-- Packages
-- Code
-- Repos
-- Environments
-- et al
+Not convinced this is needed functionality
